@@ -1,4 +1,4 @@
-//ELECTION VERIFICATION 2021 PROGRAM USING ONLY IF ELSE
+//ELECTION VERIFICATION 2022 PROGRAM USING ONLY IF ELSE
 
 var readlineSync = require('readline-sync');                                                          //package
 var birthYear = readlineSync.question("Please Enter Your Birth Year :- ");                            //inputs
@@ -8,7 +8,7 @@ var legalAge = readlineSync.question("\n\n\nAre you of a leagal age to vote :- "
 var ignoreCase = legalAge.toLowerCase();                                  //converting the string to lowercase
 var ageCount = 0;                                                         //counter
 var nextVotechance = 0;                                                   
-var calculatedAge = 2021 - birthYear;                                     //to verify the birthyear
+var calculatedAge = 2022 - birthYear;                                     //to verify the birthyear
 var ageDifference = 18 - calculatedAge;                                   //to calcualate the no. of years till 18
 var yearsLeft = ageDifference / 4;                                        //getting the value in decimal
 var wholeValue = Math.trunc(yearsLeft);                      //omitting the decimal value (NOTE:- not rounding the value)
